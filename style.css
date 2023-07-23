@@ -1,95 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Stick+No+Bills&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Stick+No+Bills&display=swap');
-
-.body{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
+.body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-
-.nav-container{
-    background-color: black;
-    font-family: 'Lato', sans-serif;
-    width: 100%;
-    min-width: 992px;
-
+.nav-container {
+  background-color: black;
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  min-width: 992px;
 }
 
-.navbar{
-    
-    height: 92px;
-    width: 75%;
-    min-width: 75%;
-    margin: auto;
+.navbar {
+  height: 92px;
+  width: 75%;
+  min-width: 75%;
+  margin: auto;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-ul.nav{
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
+ul.nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
 }
 
-ul.nav li{
-   list-style: none;
-   font-size: 16px;
-   font-weight: 400;
+ul.nav li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
 }
 
-ul.nav li a{
-    text-decoration: none;
-    color: white;
-
+ul.nav li a {
+  text-decoration: none;
+  color: white;
 }
 
-#navbut-a{
-    font-size: 14px;
-    padding: 14px;
-    border: 1px solid white;
-    border-radius: 50px;
+#navbut-a {
+  font-size: 14px;
+  padding: 14px;
+  border: 1px solid white;
+  border-radius: 50px;
 }
 
-#navbut-b{
-    font-size: 14px;
-    background-color: #ED1C24;
-    padding: 10px;
-    border: 1px solid #ED1C24;
-    border-radius: 50px;
-    
+#navbut-b {
+  font-size: 14px;
+  background-color: #ed1c24;
+  padding: 10px;
+  border: 1px solid #ed1c24;
+  border-radius: 50px;
 }
 
-.button-order{
-    display: flex;
-    align-items: center ;
+.button-order {
+  display: flex;
+  align-items: center;
 }
 
-#navbut-b svg{
-    color: #ED1C24;
-    border: 1px solid white;
-    border-radius: 50%;
-    background-color: white;
-    padding: 5px;
-    margin-left: 7px;
-    
+#navbut-b svg {
+  color: #ed1c24;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+  padding: 5px;
+  margin-left: 7px;
 }
 
+.web-slider {
+  width: 100%;
+  min-width: 992px;
+  height: 25vh;
+}
 
+.slider {
+  width: 100%;
+  height: 80vh;
+  margin: auto;
+  background-image: url(./assets/banners/banner1.png);
+  background-size: 100% 100%;
+  animation: slider 20s infinite 25s;
+}
 
-
-
-
-
-
-
-
-
-
+@keyframes slider {
+  0% {
+    background-image: url(/assets/banners/banner1.png);
+  }
+  25% {
+    background-image: url(/assets/banners/banner2.png);
+  }
+  50% {
+    background-image: url(/assets/banners/banner3.png);
+  }
+  75% {
+    background-image: url(/assets/banners/banner4.png);
+  }
+}
