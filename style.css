@@ -340,14 +340,6 @@ ul.nav li a {
   left: 32px;
 }
 
-/* .exp-row {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin: auto;
-  margin-bottom: 40px;
-} */
-
 .expresscards {
   display: flex;
   flex-wrap: wrap;
@@ -431,30 +423,20 @@ ul.nav li a {
   margin: 5px;
 }
 
-.ebutton-direction a{
+.ebutton-direction a {
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.ebutton-direction {
-  width: 100%;
-  font-size: 14px;
-  margin-top: 20px;
-}
-
-.centered-button{
-  width: 40%;
-  margin: auto;
-  display: inline-block;
+  width: 50%;
+  margin: 20px auto 0;
   padding: 10px 2px;
   border: 1px solid white;
   border-radius: 50px;
   color: white;
 }
 
-.ebutton-direction svg {
+.ebutton-direction a svg {
   color: #ed1c24;
   border: 1px solid white;
   border-radius: 50%;
@@ -463,7 +445,50 @@ ul.nav li a {
   margin-left: 7px;
 }
 
+.village{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.06);
+}
 
+.village-container{
+  width: 90%;
+  margin: auto;
+  height: fit-content;
+ 
+}
+
+.row-village{
+  display: flex;
+  gap:3rem ;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.button-direction2 a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  margin: 20px 0;
+  padding: 10px 2px;
+  border: 1px solid #28A745;
+  background-color: #28A745;
+  border-radius: 50px;
+  color: white;
+}
+
+.button-direction2 a svg {
+  color: #28A745;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+  padding: 5px;
+  margin-left: 7px;
+}
 
 
 
