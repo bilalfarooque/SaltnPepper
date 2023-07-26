@@ -83,7 +83,7 @@ ul.nav li a {
   font-family: "Lato", sans-serif;
 }
 
-.web-slider {
+/* .web-slider {
   width: 100%;
   min-width: 992px;
   height: 74vh;
@@ -111,6 +111,74 @@ ul.nav li a {
   75% {
     background-image: url(/assets/banners/banner4.png);
   }
+} */
+
+.slider {
+  width: 100%;
+  /* min-width: 992px; */
+  height: 500px;
+  overflow: hidden;
+}
+
+figure {
+  position: relative;
+  width: 400%;
+  left: 0;
+  animation: slide 5s infinite;
+}
+
+.slide {
+  position: relative;
+  width: 25%;
+  float: left;
+}
+
+.slide img {
+  width: 100%;
+  height: 500px;
+}
+
+@keyframes slide {
+  /* 0% {
+    left: 0%;
+  }
+  14% {
+    left: 0%;
+  }
+  28% {
+    left: -100%;
+  }
+  42% {
+    left: -100%;
+  }
+  56% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  84% {
+    left: -300%;
+  }
+  100% {
+    left: -0%;
+  } */
+
+  0%{
+    left: 0;
+  }
+  25%{
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  75%{
+    left:-300%;
+  }
+  100%{
+    left: 0;
+  }
 }
 
 .brands {
@@ -119,7 +187,6 @@ ul.nav li a {
   min-width: 992px;
   font-family: "Lato", sans-serif;
   margin: 30px 0px 30px 0px;
-
 }
 
 .brand-container {
@@ -257,7 +324,8 @@ ul.nav li a {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.pinlocation, .phone {
+.pinlocation,
+.phone {
   display: flex;
   column-gap: 4px;
   align-items: center;
@@ -272,7 +340,7 @@ ul.nav li a {
 }
 
 .pinlocation p,
-.phone p{
+.phone p {
   font-size: 16px;
   margin: 5px;
 }
@@ -313,14 +381,14 @@ ul.nav li a {
   height: 100%;
 }
 
-.express-container{
+.express-container {
   width: 85%;
   margin: auto;
- 
+
   position: relative;
   padding: 70px;
 }
-.express-detail{
+.express-detail {
   text-align: center;
   width: 100%;
   padding: 20px 0px;
@@ -334,7 +402,7 @@ ul.nav li a {
   color: white;
 }
 
-.sideone2{
+.sideone2 {
   position: absolute;
   top: 32px;
   left: 32px;
@@ -348,9 +416,8 @@ ul.nav li a {
   justify-content: center;
 }
 
-.ecard{
+.ecard {
   width: 30%;
-  
 }
 
 .exp-img {
@@ -365,7 +432,6 @@ ul.nav li a {
 
 .expcontent {
   text-align: center;
-
 }
 
 .expcontent small {
@@ -383,7 +449,6 @@ ul.nav li a {
   font-size: 24px;
   margin: 6px 0px 18px 0px;
   align-items: center;
-  
 }
 
 .snplogo3 {
@@ -395,11 +460,10 @@ ul.nav li a {
 .esubcontent {
   color: rgba(255, 255, 255, 0.7);
   align-items: center;
-
-
 }
 
-.epinlocation, .ephone {
+.epinlocation,
+.ephone {
   display: flex;
   column-gap: 4px;
   align-items: center;
@@ -415,7 +479,7 @@ ul.nav li a {
 }
 
 .epinlocation p,
-.ephone p{
+.ephone p {
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 0.03em;
@@ -444,21 +508,20 @@ ul.nav li a {
   margin-left: 7px;
 }
 
-.village{
+.village {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.06);
 }
 
-.village-container{
+.village-container {
   width: 90%;
   margin: auto;
   height: fit-content;
- 
 }
 
-.row-village{
+.row-village {
   display: flex;
-  gap:3rem ;
+  gap: 3rem;
   align-items: center;
   justify-content: center;
 }
@@ -471,21 +534,17 @@ ul.nav li a {
   width: 30%;
   margin: 20px 0;
   padding: 10px 2px;
-  border: 1px solid #28A745;
-  background-color: #28A745;
+  border: 1px solid #28a745;
+  background-color: #28a745;
   border-radius: 50px;
   color: white;
 }
 
 .button-direction2 a svg {
-  color: #28A745;
+  color: #28a745;
   border: 1px solid white;
   border-radius: 50%;
   background-color: white;
   padding: 5px;
   margin-left: 7px;
 }
-
-
-
-
