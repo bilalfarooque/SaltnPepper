@@ -313,7 +313,155 @@ ul.nav li a {
   height: 100%;
 }
 
+.express-container{
+  width: 80%;
+  margin: auto;
+  height: 150vh;
+  position: relative;
+  padding: 70px;
+}
+.express-detail{
+  text-align: center;
+  width: 100%;
+  padding: 20px 0px;
+  margin: auto;
+  font-family: "Lato", sans-serif;
+}
 
+.express-detail p {
+  font-size: 40px;
+  margin: 0;
+  color: white;
+}
+
+.sideone2{
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+
+/* .exp-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 40px;
+} */
+
+.expresscards {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 25px;
+  justify-content: center;
+}
+
+.ecard{
+  width: 30%;
+  
+}
+
+.exp-img {
+  width: 100%;
+  height: 50%;
+}
+
+.exp-img img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.expcontent {
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.expcontent small {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.48em;
+  text-transform: uppercase;
+  color: #ed1c24;
+  margin-bottom: 2px;
+}
+
+.eline1 {
+  font-size: 24px;
+  margin: 6px 0px 18px 0px;
+  align-items: center;
+  
+}
+
+.snplogo3 {
+  font-family: "Stick No Bills", sans-serif;
+  font-size: 24px;
+  margin: 0;
+}
+
+.esubcontent {
+  color: rgba(255, 255, 255, 0.7);
+  align-items: center;
+ 
+
+}
+
+.epinlocation, .ephone {
+  display: flex;
+  column-gap: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+#epinlocation,
+#ephone {
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+  padding: 3px;
+}
+
+.epinlocation p,
+.ephone p{
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  margin: 5px;
+}
+
+.ebutton-direction a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ebutton-direction {
+  width: 100%;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.centered-button{
+  width: 40%;
+  margin: auto;
+  display: inline-block;
+  padding: 10px 2px;
+  border: 1px solid white;
+  border-radius: 50px;
+  color: white;
+}
+
+.ebutton-direction svg {
+  color: #ed1c24;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+  padding: 5px;
+  margin-left: 7px;
+}
 
 
 
